@@ -29,7 +29,10 @@ def is_sorted(integer_list):
     else:
         return False
 
+def main():
+    print(is_sorted([1,2,3]))
 
 
-
+if __name__ == '__main__':
+    main()
 
